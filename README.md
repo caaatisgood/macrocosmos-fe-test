@@ -22,8 +22,13 @@ This is an internal tool for the Macrocosmos team to monitor miner behaviour on 
 
 - The user should be able to see a list of miners.
 - The user should be able to see the miner's name, IP address, and the number of blocks mined.
-- The user should be able to see the miner's IP address as a clickable link.
-- The user should be able to click on the miner's IP address to see a modal with more information about the miner.
+
+- The user should be able to interact with the data in any other way that you think might be useful!
+
+- e.g. some ideas for additional features could include:
+  - sorting / filtering searching by a field on the miner data
+  - Miner's IP address as a clickable link, opening a modal with more info about the miner
+  - a chart showing miner activity over the last month
 
 ## What we're looking for
 
