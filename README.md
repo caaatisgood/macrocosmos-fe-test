@@ -9,7 +9,7 @@ It contains:
 - a dummy API at `src/server/backend.ts` which returns a JSON object containing **fictional data about miners on the Bittensor network**.
 - a route for client-side fetching at `src/app/api/route.ts`.
 - a `Miner` type at `src/types/miner.types.ts`, which can be used both server and client-side.
-- a route for client-side fetching at `src/pages/api/miners/route.ts`.
+- a route for data fetching at `src/pages/api/miners/route.ts`.
 - a Layout component that wraps the entire application at `src/app/layout.tsx`.
 - a Page component that contains the main content of the application at `src/app/page.tsx`.
 
@@ -24,7 +24,7 @@ This is an internal tool for the Macrocosmos team to monitor miner behaviour on 
 - The user should be able to see a list of miners.
 - The user should be able to see the miner's name, IP address, and the number of blocks mined.
 
-- The user should be able to interact with the data in any other way that you think might be useful!
+- Additionally: The user should be able to interact with the data in any other way that you think might be useful!
 
 - e.g. some ideas for additional features could include:
   - sorting / filtering searching by a field on the miner data
@@ -35,10 +35,10 @@ This is an internal tool for the Macrocosmos team to monitor miner behaviour on 
 
 - **Problem-solving**: We're looking for someone who can solve problems and think on their feet. Use of AI to get more done quickly is a plus - but please ensure you fully understand the code you're writing!
 - **Clean code**: We're looking for code that is easy to read and understand. Well-named variables and functions are a must.
-- **Good UI Design instincts**: We're looking for a UI that is easy to use and looks good. Obviously time is limited, but any thought into typography, responsiveness, colours, animation and any other data-viz creativity will be noticed!
+- **Good UI Design instincts**: We're looking for a UI that is easy to use and looks good. Obviously time is limited, but any thought into typography, responsiveness, colours, animation and any other data-viz frontend wizardry will be received with delight!
 - **Attention to detail**: We're looking for a product that is free of bugs and issues. If you run out of time, please make a note in comments of what you would have done next.
 - **Time management**: We're looking for someone who can manage their time effectively and work to a plan.
-- **Communication**: We're looking for someone who can explain their thought process and decisions.
+- **Communication**: We're looking for someone who can explain their thought process and decisions (at the end when we regroup).
 
 ## Data fetching
 
