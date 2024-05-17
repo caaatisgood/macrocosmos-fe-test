@@ -6,7 +6,7 @@ This is a simple web application bootstrapped with [`create-next-app`](https://g
 
 It contains:
 
-- a dummy API at `src/server/backend.ts` which returns a JSON object containing **fictional data about miners on the Bittensor network**.
+- a dummy API at `src/miner-api/getMiners.ts` which returns a JSON object containing **fictional data about miners on the Bittensor network**.
 - a route for client-side fetching at `src/app/api/route.ts`.
 - a `Miner` type at `src/types/miner.types.ts`, which can be used both server and client-side.
 - a route for data fetching at `src/pages/api/miners/route.ts`.
