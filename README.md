@@ -26,9 +26,9 @@ This is an internal tool for the Macrocosmos team to monitor miner behaviour on 
 
 ## What we're looking for
 
-- **Problem-solving**: We're looking for someone who can solve problems and think on their feet.
+- **Problem-solving**: We're looking for someone who can solve problems and think on their feet. Use of AI to get more done quickly is a plus - but please ensure you fully understand the code you're writing!
 - **Clean code**: We're looking for code that is easy to read and understand. Well-named variables and functions are a must.
-- **Good UI Design instincts**: We're looking for a UI that is easy to use and looks good. Obviously time is limited, but a bit of thought into typography, responsiveness, colours, animation and any other data-viz creativity are all a plus!
+- **Good UI Design instincts**: We're looking for a UI that is easy to use and looks good. Obviously time is limited, but any thought into typography, responsiveness, colours, animation and any other data-viz creativity will be noticed!
 - **Attention to detail**: We're looking for a product that is free of bugs and issues. If you run out of time, please make a note in comments of what you would have done next.
 - **Time management**: We're looking for someone who can manage their time effectively and work to a plan.
 - **Communication**: We're looking for someone who can explain their thought process and decisions.
@@ -44,6 +44,10 @@ This is an internal tool for the Macrocosmos team to monitor miner behaviour on 
 The important thing is that the code, and the UI, are clean and intuitive to navigate.
 
 ⏰ Please just bear in mind the time constraints and plan your time accordingly!
+
+## Use of Copilot / other AI tools
+
+We're happy for you to use AI tools like GitHub Copilot to help you write code, but please make sure you understand the code you're writing and can explain it to us.
 
 ## What happens after you finish
 
