@@ -6,12 +6,12 @@ This is a simple web application bootstrapped with [`create-next-app`](https://g
 
 It contains:
 
-- a dummy API at `src/miner-api/getMiners.ts` which returns a JSON object containing **fictional data about miners on the Bittensor network**.
-- a route for client-side fetching at `src/app/api/route.ts`.
-- a `Miner` type at `src/types/miner.types.ts`, which can be used both server and client-side.
-- a route for data fetching at `src/pages/api/miners/route.ts`.
-- a Layout component that wraps the entire application at `src/app/layout.tsx`.
-- a Page component that contains the main content of the application at `src/app/page.tsx`.
+- a dummy API at [`src/miner-api/getMiners.ts`](src/miner-api/getMiners.ts) which returns a JSON object containing **fictional data about miners on the Bittensor network**.
+- a route for client-side fetching at [`src/app/api/route.ts`](src/app/api/route.ts).
+- a `Miner` type at [`src/types/miner.types.ts`](src/types/miner.types.ts), which can be used both server and client-side.
+- a route for data fetching at [`src/pages/api/miners/route.ts`](src/pages/api/miners/route.ts).
+- a Layout component that wraps the entire application at [`src/app/layout.tsx`](src/app/layout.tsx).
+- a Page component that contains the main content of the application at [`src/app/page.tsx`](src/app/page.tsx).
 
 ## What we want you to do
 
