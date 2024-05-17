@@ -6,6 +6,7 @@ This is a simple web application bootstrapped with [`create-next-app`](https://g
 
 It contains:
     - a dummy API at `src/server/backend.ts` which returns a JSON object containing **fictional data about miners on the Bittensor network**.
+    - a route for client-side fetching at `src/app/api/route.ts`.
     - a `Miner` type at `src/types/miner.types.ts`, which can be used both server and client-side.
     - a route for client-side fetching at `src/pages/api/miners/route.ts`.
     - a Layout component that wraps the entire application at `src/app/layout.tsx`.
@@ -35,7 +36,12 @@ This is an internal tool for the Macrocosmos team to monitor miner behaviour on 
 
 ## Data fetching
 
-🛜 We have no preference for whether you fetch the data client-side (by creating an API route and calling fetch from client-side code) or server-side (using Server Components) - either approach will work.
+🛜 We have no preference for how you get the data from the server. It could be:
+
+- Fetched client-side (by adding to the route in `/src/app/api` - see [API route](https://nextjs.org/docs/app/building-your-application/routing/route-handlers) and fetching from client-side code).
+- Fetched server-side (using a Server Component - see [Server & Client Components](https://nextjs.org/learn/react-foundations/server-and-client-components)).
+
+Either of these approaches will work. Please note though that as we are trying to follow the latest NextJS routing pattern, you should avoid creating the `/pages` folder and adding a new page with `getServerSideProps`.
 
 ## Libraries
 
