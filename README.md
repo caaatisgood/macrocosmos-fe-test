@@ -20,15 +20,16 @@ It contains:
 
 This is an internal tool for the Macrocosmos team to monitor miner behaviour on our Subnets on the Bittensor network.
 
-- The user should be able to see a list of miners.
-- The user should be able to see the miner's name, IP address, and the number of blocks mined.
+- The user should be able to see a tabulated display of miners.
+- The user should be able to see the miner's username, IP address, location, tao earned and the number of blocks mined.
 
-- Additionally: The user should be able to interact with the data in any other way that you think might be useful!
+- Additionally, if you have time: The user should be able to interact with the data in another way that you think might be useful!
 
 - e.g. some ideas for additional features could include:
   - sorting / filtering searching by a field on the miner data
   - Miner's IP address as a clickable link, opening a modal with more info about the miner
-  - a chart showing miner activity over the last month
+  - a chart showing miner activity over the last month / data split by location
+  - tweak the API to send more rows of data on request, and add a "Load more" button to fetch more data
 
 ## What we're looking for
 
