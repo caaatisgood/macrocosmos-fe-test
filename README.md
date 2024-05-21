@@ -78,3 +78,10 @@ We'll have a chat to review your code and talk about your solution. We'll ask yo
 Then open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
+
+## Test result debreif
+
+- Rooms for optimisation
+  - Use proper type def for sorting handling implementation
+  - Add aria labels to table for better accessibilities
+  - Polish modal UI
