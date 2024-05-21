@@ -34,7 +34,7 @@ This is an internal tool for the Macrocosmos team to monitor miner behaviour on 
 
 - **Problem-solving**: We're looking for someone who can solve problems and think on their feet.
 - **Clean code**: We're looking for code that is easy to read and understand. Well-named variables and functions are a must.
-- **Good UI Design instincts**: We're looking for a UI that is easy to use and looks at least pretty good. Obviously time is limited, but any thought into typography (N.B. that the font is added through Next Fonts in `src/app/layout.tsx`), responsiveness, colours, animation or any other data-viz frontend wizardry will be received with delight!
+- **Good UI Design instincts**: We're looking for a UI that is easy to use and looks at least pretty good. Obviously time is limited, but any thought into typography (N.B. that the font is added through Next Fonts in [src/app/layout.tsx](src/app/layout.tsx)), responsiveness, colours, animation or any other data-viz frontend wizardry will be received with delight!
 - **Attention to detail**: We're looking for a product that is free of bugs and issues. If you run out of time, please make a note in comments of what you would have done next.
 - **Time management**: We're looking for someone who can manage their time effectively and work to a plan.
 - **Communication**: We're looking for someone who can explain their thought process and decisions (at the end when we regroup).
@@ -43,7 +43,7 @@ This is an internal tool for the Macrocosmos team to monitor miner behaviour on 
 
 🛜 We have no preference for how you get the data from the server. It could be:
 
-- Fetched client-side (by adding to the route in `/src/app/api` - see [API route](https://nextjs.org/docs/app/building-your-application/routing/route-handlers) and fetching from client-side code).
+- Fetched client-side (by adding to the route in [/src/app/api/route.ts](src/app/api/route.ts) - see [API route](https://nextjs.org/docs/app/building-your-application/routing/route-handlers) and fetching from client-side code).
 - Fetched server-side (using a Server Component - see [Server & Client Components](https://nextjs.org/learn/react-foundations/server-and-client-components)).
 
 Either of these approaches will work. Please note though that as we are trying to follow the latest NextJS routing pattern, you should avoid creating the `/pages` folder and adding a new page with `getServerSideProps`.
